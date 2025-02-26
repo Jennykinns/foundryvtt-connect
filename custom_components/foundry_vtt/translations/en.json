@@ -1,0 +1,16 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set up Foundry VTT Webhook",
+        "description": "Set up a webhook to receive data from Foundry VTT.\n\nUse this webhook URL in your Foundry VTT module settings:\n{webhook_url}",
+        "data": {
+          "webhook_id": "Webhook ID (leave as is unless you have a specific reason to change it)"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "This webhook is already configured"
+    }
+  }
+}
